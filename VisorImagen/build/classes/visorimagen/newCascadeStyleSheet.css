@@ -1,0 +1,54 @@
+#fondo{
+    -fx-background-image: url(../resources/background2.jpg);
+    -fx-background-position: center center;  
+}
+#Titulo{
+    -fx-text-fill: gray;
+    -fx-font-size : 35pt;
+    -jfx-focus-color: -fx-secondary;
+}
+#Titulo2{
+    -fx-text-fill: white;
+    -fx-font-size : 30pt;
+    -jfx-focus-color: -fx-secondary;
+}
+
+.lbl{
+    -fx-font-size : 15pt;
+    -fx-text-fill : gray;
+}
+.lbl1{
+    -fx-font-size : 15pt;
+    -fx-text-fill : white;
+}
+.root{
+    -fx-background-color: #1d1d1d;
+}
+#roo1{
+    -fx-background-color: #757575;
+}
+
+.button{
+    -fx-background-color:#4d4c4c;
+    -jfx-button-type: RAISED;/*raised and flat*/
+    -fx-text-fill: WHITE;
+    -jfx-rippler-fill: RED;
+}
+.button:hover {
+    -fx-background-color: #06388f;
+    -jfx-button-type: RAISED;/*raised and flat*/
+    -fx-text-fill: WHITE;
+    -jfx-rippler-fill: RED;
+}
+.button .jfx-rippler{
+    -jfx-rippler-fill: #577fc2;
+}
+
+.button:disabled{
+    -fx-background-color: #cccccc;
+    -jfx-button-type: RAISED;/*raised and flat*/
+    -fx-text-fill: WHITE;
+    -jfx-rippler-fill: GREEN;
+
+}
+
