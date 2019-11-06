@@ -85,61 +85,61 @@ public class FXMLDocumentController implements Initializable {
                 de debe de ajustar el tamaño de los rectangulos dependiendo del tamaño de la matriz de texto
                  */
                 if (c == 'F') {
-                    javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 20, 20);
+                    javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 1, 1);
                     rec.setStrokeType(StrokeType.OUTSIDE);
                     rec.setStroke(Paint.valueOf("gray"));
                     rec.setStrokeWidth(0.1);
                     rec.setFill(Paint.valueOf("gray"));
                     root1.getChildren().add(rec);
-                    x += 20;
+                    x += 1;
                 }
                 if (c == '1') {
-                    javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 20, 20);
+                    javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 1, 1);
                     rec.setStrokeType(StrokeType.OUTSIDE);
                     rec.setStroke(Paint.valueOf("BLUE"));
                     rec.setStrokeWidth(0.1);
                     rec.setFill(Paint.valueOf("BLUE"));
                     root1.getChildren().add(rec);
-                    x += 20;
+                    x += 1;
                 }
                 if (c == '2') {
-                    javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 20, 20);
+                    javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 1, 1);
                     rec.setStrokeType(StrokeType.OUTSIDE);
                     rec.setStroke(Paint.valueOf("GREEN"));
                     rec.setStrokeWidth(0.1);
                     rec.setFill(Paint.valueOf("GREEN"));
                     root1.getChildren().add(rec);
-                    x += 20;
+                    x += 1;
                 }
                 if (c == '4') {
-                    javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 20, 20);
+                    javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 1, 1);
                     rec.setStrokeType(StrokeType.OUTSIDE);
                     rec.setStroke(Paint.valueOf("RED"));
                     rec.setStrokeWidth(0.1);
                     rec.setFill(Paint.valueOf("RED"));
                     root1.getChildren().add(rec);
-                    x += 20;
+                    x += 1;
                 }
                 if (c == '5') {
-                    javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 20, 20);
+                    javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 1, 1);
                     rec.setStrokeType(StrokeType.OUTSIDE);
                     rec.setStroke(Paint.valueOf("PURPLE"));
                     rec.setStrokeWidth(0.1);
                     rec.setFill(Paint.valueOf("PURPLE"));
                     root1.getChildren().add(rec);
-                    x += 20;
+                    x += 1;
                 }
                 if (c == '6') {
-                    javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 20, 20);
+                    javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 1, 1);
                     rec.setStrokeType(StrokeType.OUTSIDE);
                     rec.setStroke(Paint.valueOf("BROWN"));
                     rec.setStrokeWidth(0.1);
                     rec.setFill(Paint.valueOf("BROWN"));
                     root1.getChildren().add(rec);
-                    x += 20;
+                    x += 1;
                 }
                 if (c == '@') {
-                    y += 20;
+                    y += 1;
                     x = 0;
                 }
             }

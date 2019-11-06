@@ -4,7 +4,7 @@
 }
 #Titulo{
     -fx-text-fill: gray;
-    -fx-font-size : 35pt;
+    -fx-font-size : 20pt;
     -jfx-focus-color: -fx-secondary;
 }
 #Titulo2{
