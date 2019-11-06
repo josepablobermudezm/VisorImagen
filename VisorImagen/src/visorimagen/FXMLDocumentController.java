@@ -64,12 +64,13 @@ public class FXMLDocumentController implements Initializable {
         fileChooser.setInitialDirectory(userDirectory);
         this.filePath1 = fileChooser.showOpenDialog(stage);
         /*
-            posiciones iniciales de la imagen a leer
+         *   posiciones iniciales de la imagen a leer
          */
         int x = 0;
         int y = 0;
         /*
-            filePath1 contiene la dirección seleccionada por el usuario
+         *    filePath1 contiene la dirección seleccionada por el usuario
+         *    y se valida porque si no se cae si el usuario no selecciona un archivo
          */
         if (filePath1 != null) {
             File f = new File(filePath1.toString());
@@ -81,8 +82,8 @@ public class FXMLDocumentController implements Initializable {
                 //se convierte de integer a caracter
                 char character = (char) c;
                 /*
-                Dependiendo de que caracter nos encontremos dibuja un color diferente de rectangulo
-                de debe de ajustar el tamaño de los rectangulos dependiendo del tamaño de la matriz de texto
+                 *  Dependiendo de que caracter nos encontremos dibuja un color diferente de rectangulo
+                 *  de debe de ajustar el tamaño de los rectangulos dependiendo del tamaño de la matriz de texto
                  */
                 if (c == 'F') {
                     javafx.scene.shape.Rectangle rec = new javafx.scene.shape.Rectangle(x, y, 1, 1);
